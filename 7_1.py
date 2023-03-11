@@ -4,6 +4,7 @@ file = open('homework_7.txt', 'r')
 n = file.read()
 best_score = int(n.split()[2])
 
+
 while True:
     my_number = random.choice(range(101))
     counting = 1
